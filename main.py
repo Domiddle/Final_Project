@@ -9,12 +9,11 @@ class EAFC25_cards(object):
         self.shooting=shooting
         self.passing=passing
         self.dribbling=dribbling
-        self.defence=defending
+        self.defending=defending
         self.physical=physical
 
-    def get_random_stat(self):
-        stat_name = random.choice(["overall", "pace", "shooting", "passing", "dribbling", "defending", "physical"])
-        return stat_name, getattr(self, stat_name)
+    def get_stat(self, stat_name):
+        return getattr(self, stat_name)
 
 
 
@@ -54,7 +53,7 @@ if __name__=="__main__":
     David_Ginola=EAFC25_cards("Ginola","Immortals Hero",94,94,93,92,94,75,92)
     Steven_Gerrard=EAFC25_cards("Gerrard","Immortals Icon",93,88,92,93,90,87,86)
     Pelé=EAFC25_cards("Pelé","Immortals Icon",97,99,97,93,96,61,82)
-    Diego_Maradona=EAFC25_cards("Maradono","Grasroot Greats Icon",96,92,92,92,97,42,80)
+    Diego_Maradona=EAFC25_cards("Maradona","Grasroot Greats Icon",96,92,92,92,97,42,80)
     Lothar_Matthäus=EAFC25_cards("Matthäus","Immortals Icon",94,92,91,94,87,94,88)
     Kaká=EAFC25_cards("Kaká","Dreamchasers Icon",94,92,90,90,94,48,90)
     Federico_Valverde=EAFC25_cards("Valverde","TOTS",95,95,90,93,92,88,90)
@@ -119,3 +118,44 @@ all_players= [
     Virgil_van_Dijk, Balde, Marquinhos, Lucio, Philipp_Lahm,
     Roberto_Carlos, Cafu, Paolo_Maldini
 ]
+
+def higher_lower_game():
+    score = 0
+    stats = ["rating", "pace", "shooting", "passing", "dribbling", "defending", "physical"]
+    
+    while True:
+        stat = random.choice(stats)
+        player1, player2 = random.sample(all_players, 2)
+
+        print(f"\nWhich player has higher {stat}?")
+        print(f"1: {player1.name}")
+        print(f"2: {player2.name}")
+
+        # get user guess
+        guess = input("Enter 1 or 2 (Or 0 for a tie): ").strip()
+        if guess not in ["1", "2","0"]:
+            print("Invalid input. Please enter 1 or 2 (or 0 for a tie)")
+            continue
+
+        guess = int(guess)
+        player1_stat = player1.get_stat(stat)
+        player2_stat = player2.get_stat(stat)
+
+        correct = (player1_stat > player2_stat and guess == 1) or (player2_stat > player1_stat and guess == 2) or (player1_stat == player2_stat and guess == 0)
+
+        if correct:
+            score += 1
+            print(f"Correct! {player1.name} has {player1_stat} and {player2.name} has {player2_stat}. Your score: {score}")
+        else:
+            print(f"Wrong! {player1.name} has {player1_stat} and {player2.name} has {player2_stat}. Final score: {score}")
+            score=0
+            retry=input("Do you want to play another game? Enter y or n: ")
+            if retry == "y":
+                continue
+            else:
+                break
+                
+
+if __name__ == "__main__":
+    print("Welcome to the EAFC25 Higher or Lower Game!")
+    higher_lower_game()
