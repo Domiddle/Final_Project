@@ -33,7 +33,7 @@ Das Ziel des Spiels: so viele richtige Entscheidungen wie möglich treffen. Die 
 ![image](https://github.com/user-attachments/assets/5e1a39fc-bfa5-456a-b9e2-719bb5a66b55)
 
 ![image](https://github.com/user-attachments/assets/cabc1341-b669-4334-8387-6e1d4750e79c) 
-Die Überschriften müssen nochmals seperat konfiguriert werden. 
+Die Überschriften müssen nochmals seperat umbenannt werden. 
 
 ![image](https://github.com/user-attachments/assets/c586a09b-d1af-467f-827a-a24868aee1c1)
 
