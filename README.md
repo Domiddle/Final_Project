@@ -49,7 +49,7 @@ Es wird zufällig ein Stat (z. B. dribbling, shooting) ausgewählt.
 
 ##Quellen:
 - [StackedOverflow](https://stackoverflow.com/questions)
-- ChatGPT
+- https://chatgpt.com/
 - https://docs.python.org/3/
 
 
