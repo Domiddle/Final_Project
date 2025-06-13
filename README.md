@@ -17,9 +17,10 @@ Wir wollen ein Higher or Lower game mit den Stats von FC25 machen. Dafür sollte
 ### Datenbankdetails:
 - Am Anfang mussten wir ein Excel-tabelle mit allen Details von den Fußballspieler machen. Diese Datei muss als .csv Datei abgespeichert werden. 
     
-![image](https://github.com/user-attachments/assets/b945768e-b971-4be4-b3cf-714a9387f2a4)
+![image](https://github.com/user-attachments/assets/5e1a39fc-bfa5-456a-b9e2-719bb5a66b55)
 
-![image](https://github.com/user-attachments/assets/cabc1341-b669-4334-8387-6e1d4750e79c) Die Überschriften müssen nochmals seperat konfiguriert werden. 
+![image](https://github.com/user-attachments/assets/cabc1341-b669-4334-8387-6e1d4750e79c) 
+Die Überschriften müssen nochmals seperat konfiguriert werden. 
 
 ![image](https://github.com/user-attachments/assets/c586a09b-d1af-467f-827a-a24868aee1c1)
 
