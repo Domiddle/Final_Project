@@ -1,2 +1,4 @@
 # Final_Project
 Finales Projekt FSST geteilt 3AHEL von Dominic Pittl und Sebastian Konegger
+
+Idee: Wir wollen ein Higher or Lower game mit den Stats von FC25 machen. Dafür sollten wir eine Datenbank verwenden, die alle Spieler nach name,                card_type, overall, pace, shooting, passing, dribbling, defending und physical sortieren und anschließend in die Liste all_players speichert. Aus         dieser Liste sollen zwei zufällig ausgesuchte Spieler ausgewählt werden und der Nutzer soll raten ob entweder Spieler1 oder Spieler2 mehr pace            beispielsweise hat. Beim Reveal soll der Counter neben dem Knopf raufzählen bis zum jeweiligen Stat. Je nach dem welchen Button man drückt wird der       score um eins raufgezählt. Ziel des Spiels ist so weit wie möglich zu kommen. Die Grafikoberfläche soll in tkinter programmiert werden.
