@@ -17,6 +17,9 @@ Datenbankdetails:
     
 ![image](https://github.com/user-attachments/assets/b945768e-b971-4be4-b3cf-714a9387f2a4)
 
+![image](https://github.com/user-attachments/assets/cabc1341-b669-4334-8387-6e1d4750e79c) Die Überschriften müssen nochmals seperat konfiguriert werden. 
+
+
 
 
 
