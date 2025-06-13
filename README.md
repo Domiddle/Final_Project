@@ -10,11 +10,11 @@ Benötigte Libraries:
 - alle anderen Libraries sollte schon in Python vorinstalliert sein
 
 Benötigte Installationen:
-    - my-sql-connecters: installiert mit 'pip install mysql-connector-python'
-    - Alle anderen Libraries sollten schon vorinstalliert sein
+- my-sql-connecters: installiert mit 'pip install mysql-connector-python'
+- Alle anderen Libraries sollten schon vorinstalliert sein
 
 Datenbankdetails:
-    Am Anfang mussten wir ein Excel-tabelle mit allen Details von den Fußballspieler machen. Diese Datei muss als .csv Datei abgespeichert werden. 
+- Am Anfang mussten wir ein Excel-tabelle mit allen Details von den Fußballspieler machen. Diese Datei muss als .csv Datei abgespeichert werden. 
     
 ![image](https://github.com/user-attachments/assets/b945768e-b971-4be4-b3cf-714a9387f2a4)
 
