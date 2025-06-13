@@ -14,6 +14,7 @@ Benötigte Installationen:
 
 Datenbankdetails:
     Am Anfang mussten wir ein Excel-tabelle mit allen Details von den Fußballspieler machen. Diese Datei muss als .csv Datei abgespeichert werden. 
+    
 ![image](https://github.com/user-attachments/assets/13a70677-e4f9-4a17-8313-458f051754a9)
 
 
