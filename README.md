@@ -2,7 +2,20 @@
 ## Erstellt von: Dominic Pittl und Sebastian Konegger
 
 ### Idee: 
-Wir wollen ein Higher or Lower game mit den Stats von FC25 machen. Dafür sollten wir eine Datenbank verwenden, die alle Spieler nach name, card_type, overall, pace, shooting, passing, dribbling, defending und physical sortieren und anschließend in die Liste all_players speichert. Aus dieser Liste sollen zwei zufällig ausgesuchte Spieler ausgewählt werden undder Nutzer soll raten ob entweder Spieler1 oder Spieler2 mehr pace beispielsweise hat. Beim Reveal soll der Counter neben dem Knopf raufzählen bis zum jeweiligen Stat. Je nach demwelchen Button man drückt wird der score um eins raufgezählt. Ziel des Spiels ist so weit wie möglich zu kommen. Die Grafikoberfläche soll in tkinter programmiert werden.
+Wir möchten ein Higher or Lower Game entwickeln, basierend auf den Spielerstatistiken von EA FC25.
+Dazu verwenden wir eine Datenbank, die Informationen über die Spieler enthält – darunter
+- name
+- card-type
+- pace
+- shooting
+- passing
+- dribbling
+- defending
+- physical
+
+Diese Spieler werden in die Liste all_players geladen. Zwei zufällige Spieler werden ausgewählt, und der Benutzer soll raten, welcher von beiden z. B. mehr pace hat.
+Nach der Auswahl wird der jeweilige Stat animiert (hochgezählt) angezeigt. Je nach Entscheidung des Nutzers wird der Score um +1 erhöht oder zurückgesetzt.
+Das Ziel des Spiels: so viele richtige Entscheidungen wie möglich treffen. Die grafische Oberfläche wird mit Tkinter erstellt.
 
 ### Benötigte Libraries:
 - random: wir brauchen random um die Spieler aus der aus der Datenbank ausgelesenen zufällig rauszusuchen
