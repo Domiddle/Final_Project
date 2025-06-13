@@ -47,6 +47,11 @@ Es wird zufällig ein Stat (z. B. dribbling, shooting) ausgewählt.
 - Bei korrekter Wahl erhöht sich der Punktestand um +1.
 - Bei einem Fehler wird der Score auf 0 zurückgesetzt, das Spiel beginnt von vorn.
 
+##Quellen:
+- [StackedOverflow](https://stackoverflow.com/questions)
+- ChatGPT
+- https://docs.python.org/3/
+
 
 
 
