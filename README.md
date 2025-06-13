@@ -19,6 +19,14 @@ Datenbankdetails:
 
 ![image](https://github.com/user-attachments/assets/cabc1341-b669-4334-8387-6e1d4750e79c) Die Überschriften müssen nochmals seperat konfiguriert werden. 
 
+Gameplay-Details
+
+Es wird zufällig ein Stat (z. B. dribbling, shooting) ausgewählt.
+- Zwei Spieler werden aus der Liste gezogen.
+- Der Spieler wählt, welcher der beiden den höheren Wert im angezeigten Stat hat (oder ob es ein Gleichstand ist).
+- Der Stat wird nach dem Klick animiert aufgedeckt.
+- Bei korrekter Wahl erhöht sich der Punktestand um +1.
+- Bei einem Fehler wird der Score auf 0 zurückgesetzt, das Spiel beginnt von vorn.
 
 
 
