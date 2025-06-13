@@ -10,5 +10,8 @@ Benötigte Libraries:
 
 Benötigte Installationen:
     my-sql-connecters: installiert mit 'pip install mysql-connector-python'
+    Alle anderen Libraries sollten schon vorinstalliert sein
+
+
  
   
