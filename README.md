@@ -12,6 +12,9 @@ Benötigte Installationen:
     my-sql-connecters: installiert mit 'pip install mysql-connector-python'
     Alle anderen Libraries sollten schon vorinstalliert sein
 
+Datenbankdetails:
+    Am Anfang mussten wir ein Excel-tabelle mit allen Details von den Fußballspieler machen. Diese Datei muss als .csv Datei abgespeichert werden. 
+
 
  
   
